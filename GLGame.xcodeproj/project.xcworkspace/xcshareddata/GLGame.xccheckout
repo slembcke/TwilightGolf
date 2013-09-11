@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F566978-9E71-4F32-A102-595812A6C738</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1F0026AC-3613-475B-91C9-E870F0BE15D6</key>
+		<string>http://chipmunk-physics.googlecode.com/svn/trunk</string>
+		<key>AA688175-0501-4C50-A29A-603F9C0201ED</key>
+		<string>http://kortham.net/svn/iGlowGulf/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GLGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1F0026AC-3613-475B-91C9-E870F0BE15D6</key>
+		<string>../../chipmunk</string>
+		<key>AA688175-0501-4C50-A29A-603F9C0201ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>1F0026AC-3613-475B-91C9-E870F0BE15D6</key>
+		<string>http://chipmunk-physics.googlecode.com/svn</string>
+		<key>AA688175-0501-4C50-A29A-603F9C0201ED</key>
+		<string>http://kortham.net/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://kortham.net/svn/iGlowGulf/trunk/GLGame.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA688175-0501-4C50-A29A-603F9C0201ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>iGlowGulf/trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA688175-0501-4C50-A29A-603F9C0201ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwilightGolf</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1F0026AC-3613-475B-91C9-E870F0BE15D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>chipmunk</string>
+		</dict>
+	</array>
+</dict>
+</plist>

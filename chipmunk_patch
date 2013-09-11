@@ -1,0 +1,40 @@
+Index: chipmunk/include/chipmunk/chipmunk_types.h
+===================================================================
+--- chipmunk/include/chipmunk/chipmunk_types.h	(revision 471)
++++ chipmunk/include/chipmunk/chipmunk_types.h	(working copy)
+@@ -52,19 +52,19 @@
+ #ifdef CP_DATA_POINTER_TYPE
+ 	typedef CP_DATA_POINTER_TYPE cpDataPointer;
+ #else
+-	typedef void * cpDataPointer;
++	typedef id cpDataPointer;
+ #endif
+ 
+ #ifdef CP_COLLISION_TYPE_TYPE
+ 	typedef CP_COLLISION_TYPE_TYPE cpCollisionType;
+ #else
+-	typedef unsigned int cpCollisionType;
++	typedef id cpCollisionType;
+ #endif
+ 
+ #ifdef CP_GROUP_TYPE
+ 	typedef CP_GROUP_TYPE cpGroup;
+ #else
+-	typedef unsigned int cpGroup;
++	typedef id cpGroup;
+ #endif
+ 
+ #ifdef CP_LAYERS_TYPE
+Index: chipmunk/src/chipmunk.c
+===================================================================
+--- chipmunk/src/chipmunk.c	(revision 471)
++++ chipmunk/src/chipmunk.c	(working copy)
+@@ -39,7 +39,7 @@
+ 	fprintf(stderr, "\tFailed condition: %s\n", condition);
+ 	fprintf(stderr, "\tSource:%s:%d\n", file, line);
+ 	
+-	if(isError) abort();
++//	if(isError) abort();
+ }
+ 
+ 
